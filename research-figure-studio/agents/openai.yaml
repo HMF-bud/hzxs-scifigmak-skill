@@ -1,0 +1,4 @@
+interface:
+  display_name: "科研制图完整版"
+  short_description: "沿用已确认偏好，一轮比较三案，完成数据图与方法图制作及排版审核"
+  default_prompt: "使用 $research-figure-studio 设计论文图，沿用我的制图偏好，一次给出三案、推荐理由和需要我决定的取舍，选定后完成制图与审核。"

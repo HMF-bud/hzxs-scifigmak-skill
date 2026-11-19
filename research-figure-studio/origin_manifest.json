@@ -1,0 +1,246 @@
+{
+  "integration_snapshot_date": "2026-11-17",
+  "public_edition_date": "2026-11-19",
+  "maintenance": "Integrated snapshot with selected upstream components; no automatic sync",
+  "file_sources": [
+    {
+      "target": "scripts/audit_pdf_text.py",
+      "source_sha256": "0b3d3e30ce9ec7191b8ba6dd053226487ab41594297005afcd127acda3b08281",
+      "packaged_sha256": "0b3d3e30ce9ec7191b8ba6dd053226487ab41594297005afcd127acda3b08281",
+      "adaptation": "Copied unchanged",
+      "source_skill": "nature-figure",
+      "source_path": "scripts/audit_pdf_text.py",
+      "upstream_reference": "https://github.com/Yuan1z0825/nature-skills/blob/14ca69710cae192325395a380e9cdd4ae5d9d0c8/skills/nature-figure/scripts/audit_pdf_text.py"
+    },
+    {
+      "target": "scripts/audit_figure_collisions.py",
+      "source_sha256": "4bd020238a9f207c8a67c61d7209cef5959f2995a1d9cd95911d6fa93de7aa36",
+      "packaged_sha256": "4bd020238a9f207c8a67c61d7209cef5959f2995a1d9cd95911d6fa93de7aa36",
+      "adaptation": "Copied unchanged",
+      "source_skill": "nature-figure",
+      "source_path": "scripts/audit_figure_collisions.py",
+      "upstream_reference": "https://github.com/Yuan1z0825/nature-skills/blob/14ca69710cae192325395a380e9cdd4ae5d9d0c8/skills/nature-figure/scripts/audit_figure_collisions.py"
+    },
+    {
+      "target": "scripts/audit_panel_alignment.py",
+      "source_sha256": "4ed2d6afe9db45aaf6ca26aeb264cfc251ae92b49ee9fbf117d926e1956acf56",
+      "packaged_sha256": "4ed2d6afe9db45aaf6ca26aeb264cfc251ae92b49ee9fbf117d926e1956acf56",
+      "adaptation": "Copied unchanged",
+      "source_skill": "nature-figure",
+      "source_path": "scripts/audit_panel_alignment.py",
+      "upstream_reference": "https://github.com/Yuan1z0825/nature-skills/blob/14ca69710cae192325395a380e9cdd4ae5d9d0c8/skills/nature-figure/scripts/audit_panel_alignment.py"
+    },
+    {
+      "target": "scripts/validate_figure.py",
+      "source_sha256": "b9800e93dfa289eddd2e9438af755fcc6dd4a5f0f1da7778e4f999a91b69b042",
+      "packaged_sha256": "b9800e93dfa289eddd2e9438af755fcc6dd4a5f0f1da7778e4f999a91b69b042",
+      "adaptation": "Copied unchanged",
+      "source_skill": "nature-figure",
+      "source_path": "scripts/validate_figure.py",
+      "upstream_reference": "https://github.com/Yuan1z0825/nature-skills/blob/14ca69710cae192325395a380e9cdd4ae5d9d0c8/skills/nature-figure/scripts/validate_figure.py"
+    },
+    {
+      "target": "scripts/audit_svg_schematic.py",
+      "source_sha256": "8776cb9da07dc2ef6edf65c1ad23184567172b03685b880c78f3ef74d7241db8",
+      "packaged_sha256": "8776cb9da07dc2ef6edf65c1ad23184567172b03685b880c78f3ef74d7241db8",
+      "adaptation": "Copied unchanged",
+      "source_skill": "nature-figure",
+      "source_path": "scripts/audit_svg_schematic.py",
+      "upstream_reference": "https://github.com/Yuan1z0825/nature-skills/blob/14ca69710cae192325395a380e9cdd4ae5d9d0c8/skills/nature-figure/scripts/audit_svg_schematic.py"
+    },
+    {
+      "target": "scripts/panel_alignment.R",
+      "source_sha256": "aeb2db8355e2026e2f2640d25bf18edfa57fb0165ec2c7811f97bb75ba53d26b",
+      "packaged_sha256": "9dab74262bdb9724f3f317e39ec8fbd2ef6cddf916374bedb8e60f521412839d",
+      "adaptation": "Require explicit package-local auditor path and mark the adaptation",
+      "source_skill": "nature-figure",
+      "source_path": "scripts/panel_alignment.R",
+      "upstream_reference": "https://github.com/Yuan1z0825/nature-skills/blob/14ca69710cae192325395a380e9cdd4ae5d9d0c8/skills/nature-figure/scripts/panel_alignment.R"
+    },
+    {
+      "target": "scripts/search_gallery.py",
+      "source_sha256": "6701f55fa22d26ff96867f8be1a40d649f7adccadc3a2c9e0f9795daed2a69e6",
+      "packaged_sha256": "6701f55fa22d26ff96867f8be1a40d649f7adccadc3a2c9e0f9795daed2a69e6",
+      "adaptation": "Copied unchanged",
+      "source_skill": "sci-figure-gallery",
+      "source_path": "scripts/search_gallery.py"
+    },
+    {
+      "target": "scripts/audit_figure.py",
+      "source_sha256": "4aa621e0e1067782fd60a21fc088b97ab72890d51f71215d8d20eb0d4bb70b13",
+      "packaged_sha256": "969b2dbb8d071c661572d8d405d802cab7a274ab418c3f12a25db10ccd34810a",
+      "adaptation": "Use local sibling scripts only; remove dependency on the installed nature-figure directory",
+      "source_skill": "research-figure-workflow",
+      "source_path": "scripts/audit_figure.py"
+    },
+    {
+      "target": "scripts/build_drawio.py",
+      "source_sha256": "22604fd4bc836cb884f50e9da88dd85eb8714a657dd43b985e2482370c9a3cf2",
+      "packaged_sha256": "22604fd4bc836cb884f50e9da88dd85eb8714a657dd43b985e2482370c9a3cf2",
+      "adaptation": "Copied unchanged",
+      "source_skill": "scientific-drawio-flowchart",
+      "source_path": "scripts/build_drawio.py",
+      "upstream_reference": "https://github.com/kayla9928/scientific-drawio-flowchart/blob/9a18c05aeaeee4f877e6d96c126f323d9be08f13/scripts/build_drawio.py"
+    },
+    {
+      "target": "scripts/validate_drawio.py",
+      "source_sha256": "5430ec35b6afa1dc5e97031c7e3a32f49b0b810fcb11e683bb522ffdb9ce7b9e",
+      "packaged_sha256": "5430ec35b6afa1dc5e97031c7e3a32f49b0b810fcb11e683bb522ffdb9ce7b9e",
+      "adaptation": "Copied unchanged",
+      "source_skill": "scientific-drawio-flowchart",
+      "source_path": "scripts/validate_drawio.py",
+      "upstream_reference": "https://github.com/kayla9928/scientific-drawio-flowchart/blob/9a18c05aeaeee4f877e6d96c126f323d9be08f13/scripts/validate_drawio.py"
+    },
+    {
+      "target": "scripts/check_svg_size.py",
+      "source_sha256": "b8c45446de3b482a86d3e3aa6ba7683beae64669770e6f838ab266273ce1a10b",
+      "packaged_sha256": "b8c45446de3b482a86d3e3aa6ba7683beae64669770e6f838ab266273ce1a10b",
+      "adaptation": "Copied unchanged",
+      "source_skill": "scientific-drawio-flowchart",
+      "source_path": "scripts/check_svg_size.py",
+      "upstream_reference": "https://github.com/kayla9928/scientific-drawio-flowchart/blob/9a18c05aeaeee4f877e6d96c126f323d9be08f13/scripts/check_svg_size.py"
+    },
+    {
+      "target": "scripts/lib/__init__.py",
+      "source_sha256": "efeb76dc027e7673280710afd14d650607198bd294193503565cc84cebbd87b5",
+      "packaged_sha256": "efeb76dc027e7673280710afd14d650607198bd294193503565cc84cebbd87b5",
+      "adaptation": "Copied unchanged",
+      "source_skill": "scientific-drawio-flowchart",
+      "source_path": "scripts/lib/__init__.py",
+      "upstream_reference": "https://github.com/kayla9928/scientific-drawio-flowchart/blob/9a18c05aeaeee4f877e6d96c126f323d9be08f13/scripts/lib/__init__.py"
+    },
+    {
+      "target": "scripts/lib/drawio_model.py",
+      "source_sha256": "c5c72ece7c4e65a24bb0d5c19872bc9bf116a27c1a6c91b0c867b3e1843dcc3f",
+      "packaged_sha256": "c5c72ece7c4e65a24bb0d5c19872bc9bf116a27c1a6c91b0c867b3e1843dcc3f",
+      "adaptation": "Copied unchanged",
+      "source_skill": "scientific-drawio-flowchart",
+      "source_path": "scripts/lib/drawio_model.py",
+      "upstream_reference": "https://github.com/kayla9928/scientific-drawio-flowchart/blob/9a18c05aeaeee4f877e6d96c126f323d9be08f13/scripts/lib/drawio_model.py"
+    },
+    {
+      "target": "scripts/lib/geometry.py",
+      "source_sha256": "583ebb6404fe8f7122a5cf08df1eecfcbac11f16fb32dd66d724661fbf94c546",
+      "packaged_sha256": "583ebb6404fe8f7122a5cf08df1eecfcbac11f16fb32dd66d724661fbf94c546",
+      "adaptation": "Copied unchanged",
+      "source_skill": "scientific-drawio-flowchart",
+      "source_path": "scripts/lib/geometry.py",
+      "upstream_reference": "https://github.com/kayla9928/scientific-drawio-flowchart/blob/9a18c05aeaeee4f877e6d96c126f323d9be08f13/scripts/lib/geometry.py"
+    },
+    {
+      "target": "references/flowchart-spec.md",
+      "source_sha256": "ea99851062911d0fa0c9d1615b4e14a4a5d7b667e7c14ed721fc769403df5f67",
+      "packaged_sha256": "3717d163af5293d8efcf8e2ea9f21150ca21e887a9165570933269223a3d5f96",
+      "adaptation": "Link bundled guidance, reuse approvals already established in the active conversation, and mark the adaptation",
+      "source_skill": "scientific-drawio-flowchart",
+      "source_path": "references/flowchart-spec.md",
+      "upstream_reference": "https://github.com/kayla9928/scientific-drawio-flowchart/blob/9a18c05aeaeee4f877e6d96c126f323d9be08f13/references/flowchart-spec.md"
+    },
+    {
+      "target": "references/captions.md",
+      "source_sha256": "8f46504d56f11701a605bf7186c2f88994eb7f506935081d9724581f6f5f05a6",
+      "packaged_sha256": "eb45fb7e4b5556c93416dfe6e42fcd85ff8d138b54403ff377f188f320f63364",
+      "adaptation": "Generalize personal wording for the public edition",
+      "source_skill": "research-writing-skill",
+      "source_path": "references/figure-captions.md"
+    },
+    {
+      "target": "licenses/academic-diagram.txt",
+      "source_sha256": "167966e2dd74d4338276affd6ba62e99beb1b9b7e6400fe7450ddf0f497b4c19",
+      "packaged_sha256": "167966e2dd74d4338276affd6ba62e99beb1b9b7e6400fe7450ddf0f497b4c19",
+      "adaptation": "Copied unchanged",
+      "source_skill": "academic-diagram",
+      "source_path": "LICENSE",
+      "upstream_reference": "https://github.com/plbbl/academic-diagram-skill/blob/501efb0208bf865897079fa05844c249f0736077/LICENSE"
+    },
+    {
+      "target": "licenses/drawio-academic-skills.txt",
+      "source_sha256": "c376cb8abd6188f8e8817438d6a4b071897c5f69a61f08cbdbf211d4a0e8bf2a",
+      "packaged_sha256": "c376cb8abd6188f8e8817438d6a4b071897c5f69a61f08cbdbf211d4a0e8bf2a",
+      "adaptation": "Copied unchanged",
+      "source_skill": "drawio-academic-skills",
+      "source_path": "LICENSE",
+      "upstream_reference": "https://github.com/bahayonghang/drawio-skills/blob/2aa612ef9d5b65179eeebe7ab33f97f39d2315b4/LICENSE"
+    },
+    {
+      "target": "licenses/scientific-drawio-flowchart.txt",
+      "source_sha256": "4d5d70335fd0a07bedd67583b1657c6c4e81490bb88ad1fd86137ca24da1768f",
+      "packaged_sha256": "4d5d70335fd0a07bedd67583b1657c6c4e81490bb88ad1fd86137ca24da1768f",
+      "adaptation": "Copied unchanged",
+      "source_skill": "scientific-drawio-flowchart",
+      "source_path": "LICENSE",
+      "upstream_reference": "https://github.com/kayla9928/scientific-drawio-flowchart/blob/9a18c05aeaeee4f877e6d96c126f323d9be08f13/LICENSE"
+    },
+    {
+      "source_skill": "nature-figure",
+      "source_path": "LICENSE",
+      "upstream_reference": "https://github.com/Yuan1z0825/nature-skills/blob/14ca69710cae192325395a380e9cdd4ae5d9d0c8/LICENSE",
+      "target": "licenses/nature-skills.txt",
+      "source_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "packaged_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "adaptation": "Copied unchanged from upstream repository root"
+    }
+  ],
+  "workflow_references": [
+    {
+      "sha256": "a2b6523a48192cf1dff0d194264c5662c832f4d1da6e9e4763ccd98cc0664d4c",
+      "source_skill": "nature-figure",
+      "source_path": "static/core/contract.md"
+    },
+    {
+      "sha256": "c7e6860e955a2ee9c24a30dbe88e28741da4eef8290c019e849c6b220ea0f07a",
+      "source_skill": "nature-figure",
+      "source_path": "static/core/stance.md"
+    },
+    {
+      "sha256": "79ca617cc05088d6fcfb065140d0ee036eb849738bb79306964eb9aa3a4ed274",
+      "source_skill": "nature-figure",
+      "source_path": "references/multipanel-evidence-architecture.md"
+    },
+    {
+      "sha256": "7992fd61a137c549fd046d0a5257ab65934aea8b67a82d05f3ba4ed76daaa663",
+      "source_skill": "nature-figure",
+      "source_path": "references/revision-and-statistical-semantics.md"
+    },
+    {
+      "sha256": "f7c961e692b107b8de3289156c5b92d71e9d74aa847f2f4b8f10735c5826afb5",
+      "source_skill": "sci-figure-gallery",
+      "source_path": "SKILL.md"
+    },
+    {
+      "sha256": "fd8c8e2fd01789270c3951161ea678333e34851202bef5d6ef6ffe6ce607add9",
+      "source_skill": "sci-figure-gallery",
+      "source_path": "references/revision-design-lessons.md"
+    },
+    {
+      "sha256": "803c56b78ca51b38974d39d72213818c522f302cea126f563092a996896e7d71",
+      "source_skill": "academic-diagram",
+      "source_path": "SKILL.md"
+    },
+    {
+      "sha256": "5aff07cdc98122e194726359472e7427ff68b71a3598233cca7b54619afd595a",
+      "source_skill": "academic-diagram",
+      "source_path": "references/iterative-method-design.md"
+    },
+    {
+      "sha256": "0c559ddd8ff853553df5ec4844311a0c306e222426d6897673ac7d3e218b978f",
+      "source_skill": "drawio-academic-skills",
+      "source_path": "SKILL.md"
+    },
+    {
+      "sha256": "a81ea3afe6806acd1bfb161242e88ce123e35b0f9ba2f207be2c2ef52d4cb974",
+      "source_skill": "scientific-drawio-flowchart",
+      "source_path": "SKILL.md"
+    },
+    {
+      "sha256": "9379a856d80591154357462e933eefc9a396f5110aa998fabf9b132da19cbd15",
+      "source_skill": "research-figure-workflow",
+      "source_path": "SKILL.md"
+    },
+    {
+      "sha256": "5ade33deceabdbf7d9531405be74438b8a234539ad70c3aa9e6aa604847372f1",
+      "source_skill": "research-figure-workflow",
+      "source_path": "references/design-routes.md"
+    }
+  ]
+}
